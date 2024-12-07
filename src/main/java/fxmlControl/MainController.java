@@ -40,7 +40,7 @@ public class MainController {
     void switchToSecondScreen(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("second.fxml"));
         Parent root = loader.load();
-        SecondController secondScreenController = loader.getController();
+        SecondController secondController = loader.getController();
 
         // Access any methods or data in the second screen controller if needed
         // secondScreenController.someMethod();

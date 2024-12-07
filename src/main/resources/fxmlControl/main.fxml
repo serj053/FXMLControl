@@ -27,7 +27,4 @@
    <opaqueInsets>
       <Insets />
    </opaqueInsets>
-   <cursor>
-      <Cursor fx:constant="DEFAULT" />
-   </cursor>
 </GridPane>
